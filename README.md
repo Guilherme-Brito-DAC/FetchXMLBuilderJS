@@ -1,5 +1,10 @@
 ## FetchXMLBuilderJS
 
+CDN option
+```html
+<script src="https://cdn.jsdelivr.net/gh/Guilherme-Brito-DAC/FetchXMLBuilderJS/package/dist/index.js"></script>
+```
+
 Example
 ```javascript
 import FetchXmlBuilder from 'FetchXmlBuilder'
