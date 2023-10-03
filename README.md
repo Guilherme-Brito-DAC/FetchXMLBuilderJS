@@ -1,3 +1,5 @@
+## FetchXMLBuilderJS
+
 Example
 ```javascript
 import FetchXmlBuilder from 'FetchXmlBuilder'
