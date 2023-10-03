@@ -19,7 +19,7 @@ let fetch = new FetchXmlBuilder("account", {
 // ATTRIBUTES
 
 fetch = fetch.select(["accountid", "name"])
-fetch = fetch.select(["createdon"])                     // will not replace the top speakers
+fetch = fetch.select(["createdon"])                     
 
 // FILTERS
 
