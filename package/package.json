@@ -1,0 +1,19 @@
+{
+  "name": "fetchxmlbuilderjs",
+  "version": "1.0.0",
+  "description": "A FetchXML builder in js for writing queries in the Microsoft FetchXML",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Guilherme Brito",
+  "license": "ISC",
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
