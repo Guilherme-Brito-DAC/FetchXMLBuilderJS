@@ -81,28 +81,3 @@ fetch.linkEntity({
 })
 
 let result = fetch.build(true) // true is for format the result string
-
-//<fetch version="1.0" output-format="xml-platform" mapping="logical" top="50" page="1" distinct="true" aggregate="false">
-//	<entity name="account">
-//		<attribute name="accountid"/>
-//		<attribute name="name"/>
-//		<attribute name="createdon"/>
-//		<filter type="and">
-//			<condition attribute="createdon" operator="yesterday"/>
-//			<filter type="or">
-//				<condition attribute="name" operator="eq" value="Jeff"/>
-//				<condition attribute="name" operator="eq" value="Ryan"/>
-//			</filter>
-//		</filter>
-//		<order attribute="createdon" descending="true"/>
-//		<order attribute="name" descending="false"/>
-//		<link-entity name="systemuser" from="undefined" to="owninguser" link-type="inner" alias="user">
-//			<attribute name="createdon" entityname="user"/>
-//			<attribute name="name" entityname="user"/>
-//			<filter type="and">
-//				<condition attribute="lastname" operator="ne" value="William"/>
-//			</filter>
-//			<order attribute="createdon" descending="false"/>
-//		</link-entity>
-//	</entity>
-//</fetch>
